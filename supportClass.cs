@@ -10,6 +10,7 @@ namespace Mission3Group4_2
 
         public static void PrintBoard(char[] choices)
         {
+            //Prepare game board
 
             Console.WriteLine("     |     |      ");
 
@@ -36,6 +37,7 @@ namespace Mission3Group4_2
         public static int Result(char[] choices)
 
         {
+            //check for winner
 
             if (choices[0] == choices[1] && choices[2] == choices[1])
 
